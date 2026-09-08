@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="Book your appointment with Red Muse Nail Studio in Winter Haven, Florida."
+  >
+
+  <title>
+    Book Appointment | Red Muse Nail Studio
+  </title>
+
+
+  <!-- ========================================
+       GOOGLE FONTS
+  ========================================= -->
+
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  >
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+    rel="stylesheet"
+  >
+
+
+  <!-- ========================================
+       RED MUSE CSS
+  ========================================= -->
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+
+
+  <!-- ========================================
+       CALENDLY CSS
+  ========================================= -->
+
+  <link
+    href="https://assets.calendly.com/assets/external/widget.css"
+    rel="stylesheet"
+  >
+
+</head>
+
+
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+
+  <!-- ========================================
+       HEADER
+  ========================================= -->
+
+  <header class="header">
+
+    <div class="container header__container">
+
+
+      <!-- Logo -->
+
+      <a
+        href="index.html#home"
+        class="header__brand"
+        aria-label="Red Muse Nail Studio Home"
+      >
+
+        <img width="1254" height="1254" decoding="async"
+          src="img/red-muse-logo.png"
+          alt="Red Muse Nail Studio"
+          class="header__logo"
+        >
+
+      </a>
+
+
+      <!-- Mobile Menu Button -->
+
+      <button
+        class="nav-toggle"
+        id="nav-toggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="nav-menu"
+      >
+
+        <span></span>
+        <span></span>
+        <span></span>
+
+      </button>
+
+
+      <!-- Navigation -->
+
+      <nav
+        class="nav"
+        id="nav-menu" aria-label="Main navigation"
+      >
+
+        <a href="index.html#home">
+          Home
+        </a>
+
+        <a href="index.html#services">
+          Services
+        </a>
+
+        <a href="index.html#gallery">
+          Gallery
+        </a>
+
+        <a href="about.html">
+          About
+        </a>
+
+        <a
+          href="booking.html"
+          class="nav__button" aria-current="page"
+        >
+          Book Now
+        </a>
+
+      </nav>
+
+
+    </div>
+
+  </header>
+
+
+
+  <!-- ========================================
+       MAIN
+  ========================================= -->
+
+  <main id="main-content" tabindex="-1">
+
+
+    <!-- ========================================
+         BOOKING PAGE
+    ========================================= -->
+
+    <section class="booking-page">
+
+      <div class="container">
+
+
+        <!-- Booking Heading -->
+
+        <div class="booking-page__heading">
+
+          <p class="eyebrow">
+            Book Your Appointment
+          </p>
+
+
+          <h1>
+            Your next set
+            <span>
+              starts here.
+            </span>
+          </h1>
+
+
+          <p>
+            Choose an available date and time below
+            to schedule your appointment with
+            Red Muse Nail Studio.
+          </p>
+
+        </div>
+
+
+
+        <!-- ========================================
+             CALENDLY
+        ========================================= -->
+
+        <p class="booking-fallback">Calendar not loading? <a href="https://calendly.com/norvakweb/consultation-call" target="_blank" rel="noopener noreferrer">Open the booking calendar in a new tab</a>.</p>
+        <div class="booking-page__calendar">
+
+
+          <div
+            class="calendly-inline-widget"
+            data-url="https://calendly.com/norvakweb/consultation-call"
+            style="
+              min-width: 320px;
+              height: 760px;
+            "
+          ></div>
+
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+  </main>
+
+
+
+  <!-- ========================================
+       FOOTER
+  ========================================= -->
+
+  <footer class="footer">
+
+    <div class="container footer__container">
+
+
+      <div class="footer__brand">
+
+        <a
+          href="index.html#home"
+          aria-label="Red Muse Nail Studio Home"
+        >
+
+          <img width="1254" height="1254" decoding="async"
+            src="img/red-muse-logo.png"
+            alt="Red Muse Nail Studio"
+            class="footer__logo"
+          >
+
+        </a>
+
+      </div>
+
+
+      <p>
+        Winter Haven, Florida
+      </p>
+
+
+      <p>
+        ©
+        <span id="current-year">2026</span>
+        Red Muse Nail Studio.
+        All rights reserved.
+      </p>
+
+
+    </div>
+
+  </footer>
+
+
+
+  <!-- ========================================
+       CALENDLY JAVASCRIPT
+  ========================================= -->
+
+  <script
+    src="https://assets.calendly.com/assets/external/widget.js"
+    async
+  ></script>
+
+
+  <!-- ========================================
+       RED MUSE JAVASCRIPT
+  ========================================= -->
+
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>

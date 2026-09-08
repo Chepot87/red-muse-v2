@@ -1,0 +1,16 @@
+# Local review records and editor settings
+.vscode/
+REVIEW.md
+original-hashes.json
+check.cjs
+
+# Regenerable files
+node_modules/
+dist/
+coverage/
+*.log
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
